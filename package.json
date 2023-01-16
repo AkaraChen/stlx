@@ -1,15 +1,16 @@
 {
   "name": "stlx",
   "version": "0.0.1",
+  "type": "module",
   "description": "",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "exports": {
     ".": {
-      "import": "./src/index.js"
+      "import": "./index.js"
     }
   },
-  "types": "./src/index.d.ts"
+  "types": "./index.d.ts"
 }
