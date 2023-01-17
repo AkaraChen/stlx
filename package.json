@@ -12,5 +12,12 @@
       "import": "./index.js"
     }
   },
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "jsdom": "^21.0.0",
+    "vitest": "^0.27.2"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
 }
