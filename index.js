@@ -16,7 +16,7 @@ export const stlx = (selectorOrHTMLElements) => {
         })
     return new Proxy({}, {
         get(_target, property, receiver) {
-            return new Proxy(new Function(''), {
+            return new Proxy(() => {}, {
                 apply(_target, _thisArg, argsArray) {
                     for (const element of elements) {
                         element.style[property] = argsArray.join(' ')
