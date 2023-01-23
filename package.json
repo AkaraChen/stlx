@@ -15,7 +15,7 @@
   "types": "./index.d.ts",
   "devDependencies": {
     "jsdom": "^21.0.0",
-    "vitest": "^0.27.2"
+    "vitest": "^0.28.0"
   },
   "scripts": {
     "test": "vitest run"
